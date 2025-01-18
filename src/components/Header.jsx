@@ -7,7 +7,7 @@ const Header = () => {
     useEffect(() => themeChange(false), [])
     return (
         <>
-            <header className="container h-[10vh] flex justify-between items-center">
+            <header className="container h-[8vh] flex justify-between items-center">
                 <RiBook3Fill size={36} />
                 <label className="swap swap-rotate">
                     <input type="checkbox" className="theme-controller" value="dark" />

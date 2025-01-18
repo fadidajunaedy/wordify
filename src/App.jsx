@@ -49,8 +49,8 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="container min-h-[80vh] flex flex-col gap-4 py-4">
-        <label className="input input-bordered input-lg rounded-full bg-base-200 flex items-center gap-2 focus:bg-red-200">
+      <main className="container min-h-[84vh] flex flex-col gap-4">
+        <label className="input input-bordered bg-base-200 flex items-center gap-2 focus:bg-red-200">
           <input 
           type="text" 
           tabIndex={0}
